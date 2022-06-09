@@ -1,0 +1,199 @@
+.body {
+  background: #fffcfc;
+  font: "Montserrat", sans-serif; }
+
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 50px;
+  background: #fffcfc;
+  color: black;
+  justify-content: space-between;
+  align-items: flex-end; }
+
+.a {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; }
+
+.boton {
+  display: grid;
+  justify-content: space-between;
+  align-items: flex-end; }
+
+.li {
+  display: inline-block;
+  box-sizing: border-box; }
+
+.img-logo {
+  display: inline-flex;
+  width: 100%;
+  max-width: 400px;
+  cursor: pointer; }
+
+.main {
+  border: 2px solid black;
+  margin: 0; }
+
+.carrusel {
+  position: relative;
+  width: 800px;
+  height: 300px; }
+  .carrusel li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    background: #fffcfc;
+    transition: opacity .5s; }
+    .carrusel li img {
+      display: inline-block;
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      position: relative;
+      top: 1em;
+      bottom: 0.5em;
+      left: 34em; }
+    .carrusel li:first-child {
+      opacity: 1; }
+    .carrusel li:target {
+      opacity: 1; }
+
+.puntos {
+  text-align: center;
+  margin: 20px; }
+  .puntos li {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    right: 16px; }
+    .puntos li a {
+      display: inline-block;
+      color: black;
+      text-decoration: none;
+      padding: 10px;
+      width: 1.25em;
+      height: 1.25em;
+      font-size: 90px;
+      border-radius: 100%; }
+
+.encabezadosh1 {
+  font: "Montserrat", sans-serif;
+  font-weight: bolder;
+  display: inline-flex;
+  padding: inherit;
+  margin: auto;
+  justify-content: center;
+  border-bottom: 4px solid black; }
+
+.encabezados img {
+  display: inline-block;
+  height: 200px;
+  width: 220px;
+  position: relative;
+  top: 1em;
+  left: 9em; }
+
+#vela1 {
+  margin-right: 15em;
+  margin-left: 0.3; }
+
+#vela2 {
+  margin-right: 15em; }
+
+#vela3 {
+  margin-right: 15em; }
+
+.footer {
+  background: #fffcfc;
+  color: black;
+  border: 2px solid black;
+  text-decoration: none;
+  list-style: none; }
+  .footer .grupo1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    list-style: none;
+    text-decoration: none; }
+    .footer .grupo1 .box figure {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .footer .grupo1 .box h2 {
+      color: black;
+      margin-bottom: 25px;
+      font-size: 20px;
+      text-decoration: underline; }
+  .footer .grupo2 {
+    padding: 15px 10px;
+    font-style: italic;
+    text-align: center;
+    color: black; }
+
+.footer-ul {
+  display: inline;
+  text-decoration: none;
+  list-style: none; }
+  .footer-ul li {
+    color: black;
+    margin-bottom: 10px; }
+
+.colorbox {
+  background-color: #fefafa;
+  border: 2px solid black;
+  position: relative;
+  width: 100%;
+  max-width: 2200px;
+  padding: 50px 60px;
+  text-align: justify; }
+
+.encabezado-productos {
+  font: "Montserrat", sans-serif;
+  font-weight: bolder;
+  display: inline-flex;
+  padding: inherit;
+  margin: auto;
+  justify-content: center;
+  border-bottom: 4px solid black; }
+
+.aside {
+  background: #fffcfc;
+  color: black;
+  list-style: none;
+  padding-right: 5px;
+  display: grid;
+  grid-template-columns: 0.5fr 5fr;
+  grid-template-rows: 1fr, repeat(6, 0fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 0px; }
+
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat 7, 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 50px;
+  column-gap: 100px;
+  border: 2px solid black; }
+
+.gridimg {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.letter {
+  color: black; }
+
+.slide {
+  width: 2000px; }
